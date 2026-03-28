@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "OpenCLI",
   "version": "1.5.3",
-  "description": "Browser automation bridge for the OpenCLI CLI tool. Executes commands in isolated Chrome windows via a local daemon.",
+  "description": "Browser automation bridge for the OpenCLI CLI tool. Executes commands in isolated Chromium windows via a local daemon.",
   "permissions": [
     "debugger",
     "tabs",
@@ -34,5 +34,5 @@
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
   },
-  "homepage_url": "https://github.com/jackwener/opencli"
+  "homepage_url": "https://github.com/pengkchang/opencli"
 }
